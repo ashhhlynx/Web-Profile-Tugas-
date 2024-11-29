@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Profile</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MyProfile</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Achievement</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-light p-5 text-center">
+      <div class="container">
+        <h1>Hello, I'm Muhammad Agustino</h1>
+        <p class="lead">A web developer passionate about creating beautiful and functional websites.</p>
+        <a href="#about" class="btn btn-primary btn-lg hover-effect">Learn More</a>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="container my-5 py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="Profile.Jpeg" class="img-fluid rounded-circle" alt="Profile Picture" />
+        </div>
+        <div class="col-md-6">
+          <h2>About Me</h2>
+          <p>Hallo, saya Muhammad Agustino dan saya adalah seorang web developer. Saya mempunyai rasa ingin tahu yang besar tentang dunia pemrograman ini. Saya menyukai tantangan dan selalu berusaha untuk meningkatkan keterampilan dalam teknologi terbaru. Passion saya adalah menciptakan pengalaman digital yang estetis dan fungsional. Saya berharap suatu saat nanti saya dapat menciptakan suatu hal yang berguna untuk banyak orang.</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container my-5 py-5">
+      <h2 class="text-center">Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="bi bi-code-slash display-4"></div>
+          <h4>HTML</h4>
+          <p>Extensive experience in creating well-structured and semantic HTML.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="bi bi-paint-bucket display-4"></div>
+          <h4>CSS</h4>
+          <p>Skilled in modern CSS, including Flexbox, Grid, and responsive design.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="bi bi-bootstrap-fill display-4"></div>
+          <h4>Bootstrap</h4>
+          <p>Proficient in using Bootstrap to create responsive and mobile-first designs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievement Section -->
+    <section id="portfolio" class="container my-5 py-5">
+      <h2 class="text-center">Achievement</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card hover-card">
+            <img src="Acv.jpeg" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title">Achievement 1</h5>
+              <p class="card-text">Ex imo perbatasan (Mobile Legend)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card hover-card">
+            <img src="Role Gt.jpeg" class="card-img-top" alt="Project 2" />
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Bisa semua role kecuali cooking karena ribet di timing(Growtopia)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card hover-card">
+            <img src="Acv3.jpeg" class="card-img-top" alt="Project 3" />
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">30k+ trophy hasil main 4 tahun-+(Brawl star)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5 py-5">
+      <h2 class="text-center">Contact</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form class="contact-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" required />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary hover-effect">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="text-center">
+          <p class="mb-0">&copy; 2024 Muhammad Agustino. All rights reserved.</p>
+          <p class="mb-0">Contact: xrpl1agustino@email.com| +62-858-8809-3266</p>
+          <p class="mb-0">Connect with me on:</p>
+          <div class="social-links">
+            <a href="https://tiktok.com/@izunmf" class="text-light me-3"><i class="bi bi-tiktok"></i></a>
+            <a href="https://github.com/ashhhlynx" class="text-light"><i class="bi bi-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
